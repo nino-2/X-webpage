@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.redhot{
+    align-items: center;
+}
+.logo{
+   margin-top: 48px;
+   margin-left: 25px;
+   height: 500px;
+    width: 500px;
+  
+}
+.first{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    margin: 48px 0px;
+}
+.second{
+    color: white;
+    font-size: 31px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bluehot{
+    
+    display: flex;
+    flex-direction: column;
+    padding-right:  30px;
+    padding-bottom: 10px;
+}
+.instruct{
+    position: relative;
+}
+.google{
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    left: 55px;
+}
+.signup1{
+    padding: 0px 16px;
+    margin-bottom: 12px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    width: 300px;
+    height: 40px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+.signup1:hover{
+    background-color: rgba(255, 255, 255, 0.922);
+    transition: 0.2s;
+}
+
+.signup2{
+    padding: 0px 16px;
+    margin-bottom: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    width: 300px;
+    height: 40px;
+    font-style: normal;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    text-decoration-style: solid;
+}
+.signup2:hover{
+    background-color: rgba(255, 255, 255, 0.922);
+    transition: 0.2s;
+}
+.extended{
+    position: relative;
+}
+.option{
+    position: absolute;
+    bottom: 10px;
+    
+    left: 135px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ready{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0px 16px;
+    border: none;
+    margin: 0px 20px 8px 0px;
+    background-color: #1D9BF0;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.ready:hover{
+    background-color: #238acf;
+    transition: 0.2s;
+}
+.limit{
+    max-width: 300px;
+}
+.terms{
+    color: #71767B;
+    font-size: 11px;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    
+}
+.condition{
+    color: #1D9BF0;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-decoration-line: none;
+}
+.help{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.faq{
+    width: 300px;
+    height: 40px;
+    padding: 0px 16px;
+    border-radius: 18px;
+    margin: 0px 20px 8px 0px;
+    color: #1D9BF0;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(0,0,0,0);
+    border-color: rgb(83, 100, 113);
+    border-style: solid;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.faq:hover{
+    background-color: rgba(8, 11, 61, 0.644);
+    transition: 0.2s;
+}
+
